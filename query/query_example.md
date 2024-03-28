@@ -43,6 +43,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <http://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX eor: <https://www.eoknowledgehub.cn/eo/resource/>
 ```
 
 ## 2. Satellite property
