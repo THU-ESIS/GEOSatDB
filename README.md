@@ -22,17 +22,17 @@ This study introduces GEOSatDB, a comprehensive semantic database specifically t
 
 ## Dataset Information
 
-Please note that all versions of the dataset are hosted on [ScienceDB](https://doi.org/10.57760/sciencedb.11805). The downloadable files in RDF Turtle format are located in the data directory and contain a total of 130,134 statements:
+The [GEOSatDB portal](https://www.geosatdb.cn/) has been developed to provide an interactive interface that facilitates the efficient retrieval of information on Earth observation satellites and sensors.
+
+Please note that all versions of the dataset are hosted on [ScienceDB](https://doi.org/10.57760/sciencedb.11805). The downloadable files in RDF Turtle format are located in the data directory and contain a total of 132,681 statements:
 
 - GEOSatDB_ontology.ttl: Ontology modeling of concepts, relations, and properties.
-- satellite.ttl: 2,417 Earth observation satellites and their associated entities.
-- sensor.ttl: 1,032 Earth observation sensors and their associated entities.
+- satellite.ttl: 2,453 Earth observation satellites and their associated entities.
+- sensor.ttl: 1,035 Earth observation sensors and their associated entities.
 - sensor2satellite.ttl: relations between Earth observation satellites and sensors.
-
-In addition, a [user-friendly portal](http://www.geosatdb.cn) is under development to facilitate easy access to GEOSatDB. The portal currently offers preliminary SPARQL query functionality, enabling the execution of [SPARQL query examples](./query/query_example.md).
 
 GEOSatDB undergoes quarterly updates, involving the addition of new satellites and sensors, revisions based on expert feedback, and the implementation of additional enhancements.
 
 ## Relevant Papers
 
-Ming Lin, Meng Jin, Juanzi Li & Yuqi Bai (2024) GEOSatDB: global civil earth observation satellite semantic database, Big Earth Data, DOI: [10.1080/20964471.2024.2331992](https://doi.org/10.1080/20964471.2024.2331992)
+Ming Lin, Meng Jin, Juanzi Li & Yuqi Bai (2024). GEOSatDB: global civil earth observation satellite semantic database, Big Earth Data, DOI: [10.1080/20964471.2024.2331992](https://doi.org/10.1080/20964471.2024.2331992)

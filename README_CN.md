@@ -24,17 +24,17 @@ GEOSatDB的构建流程包含两个阶段：地球观测卫星和传感器的本
 
 ## 数据描述
 
+[GEOSatDB门户网站](https://www.geosatdb.cn)现已开发完毕，它提供了一个互动性强、操作简便的界面，以便用户高效检索地球观测卫星及传感器资源。
+
 GEOSatDB数据库遵循CC BY-NC 4.0协议，采用标准的RDF Turtle格式在[ScienceDB](https://doi.org/10.57760/sciencedb.11805)上开放共享。数据集包含四个Turtle文件：
 
 - GEOSatDB_ontology.ttl: 概念、关系和属性的本体建模；
-- satellite.ttl: 2,417颗地球观测卫星及其关联实体；
-- sensor.ttl: 1,032颗星载传感器及其关联实体；
+- satellite.ttl: 2,453 颗地球观测卫星及其关联实体；
+- sensor.ttl: 1,035 颗星载传感器及其关联实体；
 - sensor2satellite.ttl: 卫星和传感器的关联关系。
 
-此外，[数据库门户网站](http://www.geosatdb.cn)正在开发，目前初步提供了SPARQL查询功能，可以在线运行针对GEOSatDB的[SPARQL查询示例](./query/query_example.md)。
-
-该数据库未来将每季度更新一次，实现地球观测卫星和传感器信息增加和现有数据修正。
+该数据库未来将每季度更新一次，实现多源信息融合和质量检查。
 
 ## 引用信息
 
-Ming Lin, Meng Jin, Juanzi Li & Yuqi Bai (2024) GEOSatDB: global civil earth observation satellite semantic database, Big Earth Data, DOI: [10.1080/20964471.2024.2331992](https://doi.org/10.1080/20964471.2024.2331992)
+Ming Lin, Meng Jin, Juanzi Li & Yuqi Bai (2024). GEOSatDB: global civil earth observation satellite semantic database, Big Earth Data, DOI: [10.1080/20964471.2024.2331992](https://doi.org/10.1080/20964471.2024.2331992)
